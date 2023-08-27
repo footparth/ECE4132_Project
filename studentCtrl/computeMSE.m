@@ -1,5 +1,4 @@
 function [mseArray,nmseArray] = computeMSE(tSeriesArray1,tSeriesArray2)
-    % testing
 % computes the mse between two cell arrays of timeSeries objects of the
 % same size.
 % also computes the normalized mse. In this case, the normalization

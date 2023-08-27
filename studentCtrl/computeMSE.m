@@ -13,6 +13,3 @@ for j=1:numSeries
     mseArray(j) = sum((tSeriesArray1{j}.Data - tSeriesArray2{j}.Data).^2)/lenSeries;
     nmseArray(j) = mseArray(j)/(sum((tSeriesArray2{j}.Data).^2)/lenSeries);
 end
-
-%hi
-%hi from jerry
